@@ -1,0 +1,550 @@
+{
+  "routes": [
+    {
+      "weight_name": "pedestrian",
+      "weight": 656.141,
+      "duration": 625.549,
+      "distance": 878.271,
+      "legs": [
+        {
+          "via_waypoints": [],
+          "annotation": {
+            "distance": [
+              9.2, 6.1, 32.1, 11.7, 25.7, 11.7, 28.1, 46.9, 18.1, 9.4, 22, 59.4, 38.9, 13.8, 70.1,
+              19.2, 61.1, 58.3, 35.4, 9.5, 14.9, 38.9, 26.9, 13.1, 26.1, 37.5, 47.3, 22.6, 26.4,
+              12.7, 5.4, 19.8
+            ],
+            "duration": [
+              5.8, 4.31, 22.643, 8.694, 19.169, 7.447, 21.007, 32.977, 14.264, 7.464, 12.368,
+              37.662, 30.663, 10.877, 55.333, 21.431, 36.62, 34.904, 27.881, 7.519, 11.108, 29.017,
+              20.063, 9.821, 18.371, 27.973, 35.347, 13.499, 14.884, 7.623, 3.222, 15.588
+            ]
+          },
+          "admins": [
+            {
+              "iso_3166_1_alpha3": "LKA",
+              "iso_3166_1": "LK"
+            }
+          ],
+          "weight": 656.141,
+          "duration": 625.549,
+          "steps": [
+            {
+              "intersections": [
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [true],
+                  "bearings": [343],
+                  "duration": 5.8,
+                  "admin_index": 0,
+                  "out": 0,
+                  "weight": 5.911,
+                  "geometry_index": 0,
+                  "location": [79.854855, 6.895497]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [true, false, true],
+                  "in": 1,
+                  "bearings": [108, 163, 341],
+                  "duration": 4.31,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 4.225,
+                  "geometry_index": 1,
+                  "location": [79.854831, 6.895576]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [false, true, true],
+                  "in": 0,
+                  "bearings": [161, 252, 341],
+                  "duration": 22.643,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 22.535,
+                  "geometry_index": 2,
+                  "location": [79.854813, 6.895628]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [true, false, true],
+                  "in": 1,
+                  "bearings": [75, 161, 342],
+                  "duration": 27.863,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 27.62,
+                  "geometry_index": 3,
+                  "location": [79.854718, 6.895901]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [true, false, true],
+                  "in": 1,
+                  "bearings": [70, 162, 341],
+                  "duration": 7.447,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 7.606,
+                  "geometry_index": 5,
+                  "location": [79.854614, 6.89622]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [false, true, true],
+                  "in": 0,
+                  "bearings": [161, 253, 342],
+                  "duration": 21.007,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 20.901,
+                  "geometry_index": 6,
+                  "location": [79.85458, 6.89632]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [true, false, true],
+                  "in": 1,
+                  "bearings": [69, 162, 342],
+                  "duration": 32.977,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 33.099,
+                  "geometry_index": 7,
+                  "location": [79.8545, 6.89656]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [false, true, true],
+                  "in": 0,
+                  "bearings": [162, 255, 343],
+                  "duration": 21.728,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 23.189,
+                  "geometry_index": 8,
+                  "location": [79.854372, 6.896961]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [true, false, true],
+                  "in": 1,
+                  "bearings": [70, 162, 342],
+                  "duration": 12.368,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 13.634,
+                  "geometry_index": 10,
+                  "location": [79.854297, 6.897197]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [false, true, true],
+                  "in": 0,
+                  "bearings": [162, 256, 342],
+                  "duration": 37.662,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 37.394,
+                  "geometry_index": 11,
+                  "location": [79.854237, 6.897385]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [false, true, true],
+                  "in": 0,
+                  "bearings": [162, 256, 342],
+                  "duration": 30.663,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 32.299,
+                  "geometry_index": 12,
+                  "location": [79.854075, 6.897894]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [true, false, true],
+                  "in": 1,
+                  "bearings": [75, 162, 342],
+                  "duration": 10.877,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 11.594,
+                  "geometry_index": 13,
+                  "location": [79.853969, 6.898227]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [false, true, true],
+                  "in": 0,
+                  "bearings": [162, 256, 342],
+                  "duration": 55.333,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 57.972,
+                  "geometry_index": 14,
+                  "location": [79.853931, 6.898345]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [true, false, true],
+                  "in": 1,
+                  "bearings": [75, 162, 343],
+                  "duration": 21.431,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 31.912,
+                  "geometry_index": 15,
+                  "location": [79.85374, 6.898946]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [false, true, true],
+                  "in": 0,
+                  "bearings": [163, 256, 342],
+                  "duration": 71.524,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 74.794,
+                  "geometry_index": 16,
+                  "location": [79.853688, 6.89911]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [false, true, true],
+                  "in": 0,
+                  "bearings": [163, 255, 344],
+                  "duration": 35.4,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 37.268,
+                  "geometry_index": 18,
+                  "location": [79.853364, 6.900134]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [true, false, true],
+                  "in": 1,
+                  "bearings": [75, 163, 342],
+                  "duration": 40.125,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 40.31,
+                  "geometry_index": 20,
+                  "location": [79.853247, 6.90052]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [false, true, true],
+                  "in": 0,
+                  "bearings": [162, 253, 341],
+                  "duration": 29.884,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 29.859,
+                  "geometry_index": 22,
+                  "location": [79.853096, 6.900979]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [false, true, true],
+                  "in": 0,
+                  "bearings": [161, 252, 344],
+                  "duration": 18.371,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 18.31,
+                  "geometry_index": 24,
+                  "location": [79.852978, 6.901319]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [true, false, true, true],
+                  "in": 1,
+                  "bearings": [70, 164, 252, 344],
+                  "duration": 27.973,
+                  "admin_index": 0,
+                  "out": 3,
+                  "weight": 27.62,
+                  "geometry_index": 25,
+                  "location": [79.852912, 6.901544]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [false, true, true],
+                  "in": 0,
+                  "bearings": [164, 251, 342],
+                  "duration": 35.347,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 35.085,
+                  "geometry_index": 26,
+                  "location": [79.85282, 6.901868]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [false, true, true],
+                  "in": 0,
+                  "bearings": [162, 252, 342],
+                  "duration": 13.499,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 14.456,
+                  "geometry_index": 27,
+                  "location": [79.852689, 6.902273]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "entry": [true, false, true],
+                  "in": 1,
+                  "bearings": [72, 162, 341],
+                  "duration": 14.884,
+                  "admin_index": 0,
+                  "out": 2,
+                  "weight": 16.113,
+                  "geometry_index": 28,
+                  "location": [79.852627, 6.902466]
+                },
+                {
+                  "mapbox_streets_v8": {
+                    "class": "trunk"
+                  },
+                  "bearings": [161, 253, 342],
+                  "entry": [false, true, true],
+                  "in": 0,
+                  "admin_index": 0,
+                  "out": 2,
+                  "geometry_index": 29,
+                  "location": [79.852548, 6.90269]
+                }
+              ],
+              "maneuver": {
+                "type": "depart",
+                "instruction": "Walk north on AA002/Galle Road.",
+                "bearing_after": 343,
+                "bearing_before": 0,
+                "location": [79.854855, 6.895497]
+              },
+              "name": "Galle Road",
+              "duration": 609.961,
+              "distance": 858.508,
+              "driving_side": "left",
+              "weight": 635.017,
+              "mode": "walking",
+              "ref": "AA002",
+              "geometry": {
+                "coordinates": [
+                  [79.854855, 6.895497],
+                  [79.854831, 6.895576],
+                  [79.854813, 6.895628],
+                  [79.854718, 6.895901],
+                  [79.854687, 6.896001],
+                  [79.854614, 6.89622],
+                  [79.85458, 6.89632],
+                  [79.8545, 6.89656],
+                  [79.854372, 6.896961],
+                  [79.854323, 6.897116],
+                  [79.854297, 6.897197],
+                  [79.854237, 6.897385],
+                  [79.854075, 6.897894],
+                  [79.853969, 6.898227],
+                  [79.853931, 6.898345],
+                  [79.85374, 6.898946],
+                  [79.853688, 6.89911],
+                  [79.853518, 6.899633],
+                  [79.853364, 6.900134],
+                  [79.853275, 6.900439],
+                  [79.853247, 6.90052],
+                  [79.853205, 6.900647],
+                  [79.853096, 6.900979],
+                  [79.853016, 6.901207],
+                  [79.852978, 6.901319],
+                  [79.852912, 6.901544],
+                  [79.85282, 6.901868],
+                  [79.852689, 6.902273],
+                  [79.852627, 6.902466],
+                  [79.852548, 6.90269],
+                  [79.852513, 6.902799],
+                  [79.852498, 6.902845]
+                ],
+                "type": "LineString"
+              }
+            },
+            {
+              "intersections": [
+                {
+                  "mapbox_streets_v8": {
+                    "class": "street"
+                  },
+                  "bearings": [73, 162, 341],
+                  "entry": [true, false, true],
+                  "in": 1,
+                  "turn_weight": 5,
+                  "admin_index": 0,
+                  "out": 0,
+                  "geometry_index": 31,
+                  "location": [79.852498, 6.902845]
+                }
+              ],
+              "maneuver": {
+                "type": "turn",
+                "instruction": "Turn right onto Pentreve Garden.",
+                "modifier": "right",
+                "bearing_after": 73,
+                "bearing_before": 342,
+                "location": [79.852498, 6.902845]
+              },
+              "name": "Pentreve Garden",
+              "duration": 15.588,
+              "distance": 19.763,
+              "driving_side": "left",
+              "weight": 21.124,
+              "mode": "walking",
+              "geometry": {
+                "coordinates": [
+                  [79.852498, 6.902845],
+                  [79.852669, 6.902898]
+                ],
+                "type": "LineString"
+              }
+            },
+            {
+              "intersections": [
+                {
+                  "bearings": [253],
+                  "entry": [true],
+                  "in": 0,
+                  "admin_index": 0,
+                  "geometry_index": 32,
+                  "location": [79.852669, 6.902898]
+                }
+              ],
+              "maneuver": {
+                "type": "arrive",
+                "instruction": "Your destination is on the right.",
+                "modifier": "right",
+                "bearing_after": 0,
+                "bearing_before": 73,
+                "location": [79.852669, 6.902898]
+              },
+              "name": "Pentreve Garden",
+              "duration": 0,
+              "distance": 0,
+              "driving_side": "left",
+              "weight": 0,
+              "mode": "walking",
+              "geometry": {
+                "coordinates": [
+                  [79.852669, 6.902898],
+                  [79.852669, 6.902898]
+                ],
+                "type": "LineString"
+              }
+            }
+          ],
+          "distance": 878.271,
+          "summary": "AA002, Pentreve Garden"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [79.854855, 6.895497],
+          [79.854831, 6.895576],
+          [79.854813, 6.895628],
+          [79.854718, 6.895901],
+          [79.854687, 6.896001],
+          [79.854614, 6.89622],
+          [79.85458, 6.89632],
+          [79.8545, 6.89656],
+          [79.854372, 6.896961],
+          [79.854323, 6.897116],
+          [79.854297, 6.897197],
+          [79.854237, 6.897385],
+          [79.854075, 6.897894],
+          [79.853969, 6.898227],
+          [79.853931, 6.898345],
+          [79.85374, 6.898946],
+          [79.853688, 6.89911],
+          [79.853518, 6.899633],
+          [79.853364, 6.900134],
+          [79.853275, 6.900439],
+          [79.853247, 6.90052],
+          [79.853205, 6.900647],
+          [79.853096, 6.900979],
+          [79.853016, 6.901207],
+          [79.852978, 6.901319],
+          [79.852912, 6.901544],
+          [79.85282, 6.901868],
+          [79.852689, 6.902273],
+          [79.852627, 6.902466],
+          [79.852548, 6.90269],
+          [79.852513, 6.902799],
+          [79.852498, 6.902845],
+          [79.852669, 6.902898]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "waypoints": [
+    {
+      "distance": 4.363,
+      "name": "AA002",
+      "location": [79.854855, 6.895497]
+    },
+    {
+      "distance": 12.71,
+      "name": "Pentreve Garden",
+      "location": [79.852669, 6.902898]
+    }
+  ],
+  "code": "Ok",
+  "uuid": "-LZ8Ut6twFyWHBgfA5WrQMpT-hhzKK1E561LBjoEN8dwqph_0oLA1A=="
+}
